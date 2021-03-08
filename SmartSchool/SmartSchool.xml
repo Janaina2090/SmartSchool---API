@@ -1,0 +1,118 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SmartSchool</name>
+    </assembly>
+    <members>
+        <member name="T:SmartSchool.Controllers.AlunoController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:SmartSchool.Controllers.AlunoController.#ctor(SmartSchool.Data.IRepository,AutoMapper.IMapper)">
+            <summary>
+            
+            </summary>
+            <param name="repo"></param>
+            <param name="mapper"></param>
+        </member>
+        <member name="M:SmartSchool.Controllers.AlunoController.Get">
+            <summary>
+            Método responsável para retornar todos os meus Aluno.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SmartSchool.Controllers.AlunoController.GetById(System.Int32)">
+            <summary>
+            Método responsável por retornar apenas um Aluno, por meio do Código ID.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SmartSchool.Controllers.AlunoController.Post(SmartSchool.Dto.AlunoDto)">
+            <summary>
+            Método responsávem para inserir um aluno no sistema.
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SmartSchool.Controllers.AlunoController.Put(System.Int32,SmartSchool.Dto.AlunoDto)">
+            <summary>
+            Método responsável para realizar atualizações por meio do codigo Id.
+            </summary>
+            <param name="Id"></param>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SmartSchool.Controllers.AlunoController.Patch(System.Int32,SmartSchool.Dto.AlunoDto)">
+            <summary>
+            Método responsável para realizar atualizações por meio do codigo Id.
+            </summary>
+            <param name="Id"></param>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SmartSchool.Controllers.AlunoController.Delete(System.Int32)">
+            <summary>
+            Método responsável para excluir uma aluno.
+            </summary>
+            <param name="Id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:SmartSchool.Controllers.ProfessorController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:SmartSchool.Controllers.ProfessorController.#ctor(SmartSchool.Data.IRepository,AutoMapper.IMapper)">
+            <summary>
+            
+            </summary>
+            <param name="repo"></param>
+            <param name="mapper"></param>
+        </member>
+        <member name="M:SmartSchool.Controllers.ProfessorController.Get">
+            <summary>
+            Método responsável para retornar todos meus professores
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SmartSchool.Controllers.ProfessorController.GetById(System.Int32)">
+            <summary>
+            Método responsável por retornar apenas um professor por meio do código Id.
+            </summary>
+            <param name="Id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SmartSchool.Controllers.ProfessorController.Post(SmartSchool.Dto.ProfessorDto)">
+            <summary>
+            Método responsávem para inserir um aluno no sistema.
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SmartSchool.Controllers.ProfessorController.Put(System.Int32,SmartSchool.Dto.ProfessorDto)">
+            <summary>
+            Método responsável para realizar atualizações por meio do codigo Id.
+            </summary>
+            <param name="id"></param>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SmartSchool.Controllers.ProfessorController.Patch(System.Int32,SmartSchool.Dto.ProfessorDto)">
+            <summary>
+            Método responsável para realizar atualizações por meio do codigo Id.
+            </summary>
+            <param name="id"></param>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SmartSchool.Controllers.ProfessorController.Delete(System.Int32)">
+            <summary>
+            Método responsável para expluir uma Professor.
+            </summary>
+            <param name="Id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
